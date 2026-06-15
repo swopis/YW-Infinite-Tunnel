@@ -46,7 +46,7 @@ The lower bound is 21 sections and the upper bound is (20 * clearCount + 21) sec
 > The goal position cannot exceed the maximum tunnel length or go lower than the minimum tunnel length.
 
 ## Manipulating the Tunnel Goal Location
-The tunnel length cannot be lowered more than the minimum mentioned above and not more than the section the player is in. The tunnel length cannot grow further than the maximum mentioned above.
+The tunnel length cannot be lowered more than the minimum mentioned above and not more than the section the player is in plus one. The tunnel length cannot grow further than the maximum mentioned above.
 If the player is already in the last or second to last section, the tunnel length can no longer be manipulated.
 The end location of the goal can be manipulated the following ways:
 * Talking to NPCs:
